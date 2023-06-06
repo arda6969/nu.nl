@@ -11,14 +11,6 @@ CREATE TABLE `users` (
     joined_at DATE NULL
 );
 
-CREATE TABLE `advertenties` (
-	id MEDIUMINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    ad-id VARCHAR(40) NULL,
-    naam VARCHAR(100) NOT NULL,
-    --find uit hoe blobs werken om img in te krijgen of link het.
-    ad-img VARCHAR(100) enum(type1,type2,type3) NULL,
-);
-
 CREATE TABLE `artikel` (
 	id MEDIUMINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     naam VARCHAR(40) NULL,
