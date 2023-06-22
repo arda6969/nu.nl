@@ -1,0 +1,233 @@
+.columns .article > *, .columns__main > *, .columns__sidebar > * {
+    grid-column: var(--column-area);
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .columns {
+    --edge-spacing: var(--grid-base--x4);
+    --block-spacing: var(--grid-base--x4);
+    --sidebar-width: 336px;
+    --column-area: padded;
+  }
+  .branded--nuzakelijk {
+    --brand-logo: url(/assets/nuzakelijk-1b930d48.svg);
+    --brand-color: var(--color-nuzakelijk);
+    --brand-color-hover: var(--color-nuzakelijk);
+    --brand-color-visited: var(--color-nuzakelijk);
+    --brand-color-raw: var(--color-nuzakelijk-raw);
+    --brand-contrast-color: var(--color-white-one);
+  }
+  #app {
+    color: #1f2442;
+    color: var(--color-body-text);
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Arial,Helvetica,sans-serif;
+    font-family: var(--primary-font-family);
+    font-size: 1.4rem;
+    font-size: var(--font-size-body--s0);
+  }
+  .bodies, html {
+    color: #1f2442;
+    color: var(--color-body-base);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+  }
+
+  .header {
+    color: red;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin: 0;
+      margin-bottom: 0px;
+    word-break: break-word;
+    padding-bottom: 15px;
+  }
+
+  .knop {
+    color: red;
+    border-color: red;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  p {
+    width: 750px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: large;
+    margin: 0;
+  }
+
+  .knopje {
+    background-color: rgb(41, 162, 41);
+    width: 750px;
+    margin-top: 25px;
+    border-radius: 15px;
+    height: 30px;
+  }
+
+  .knopje > a {
+    color: white;
+    font-style: none;
+  }
+
+  .reacties {
+    background-color: lightgray;
+    width: fit-content;
+    border-radius: 10px;
+    color: darkslateblue;
+    font-size: medium;
+    padding: 5px;
+  }
+
+.bodies {
+  margin-left: 300px;
+}
+
+.header {
+  color: darkslateblue;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.knop {
+   background-color: white; 
+   border-color:darkslateblue;   
+   color:darkslateblue ; 
+   padding :10px ; 
+   cursor:pointer ;
+}
+
+.comment-form-container {
+ margin-bottom:20px ;
+ width :750px ;
+ display:inline-block ;  
+}
+
+.comment-form label[for='name']{
+ display:block ; 
+ font-weight:bold ; 
+ margin-bottom :5px;  
+} 
+
+.comment-form input[name='name']{
+ width :100% ;
+ padding :10px ;
+ margin-bottom :15px ;
+ border-radius :5px ;
+ border-color:#eee;  
+} 
+
+ .comment-form textarea[name='comment']{
+    width:100%;    
+    height:auto !important;     
+    min-height:120px !important;       
+    padding-top :10px ;        
+     padding-right :10px ;      
+      padding-left :10px ;
+
+     box-sizing:border-box;
+
+     -moz-box-sizing:border-box;
+
+     -webkit-box-sizing:border-box;
+
+      overflow:hidden ;
+
+     resize:none ;
+
+ }
+
+ .informatie > hr {
+  width: 750px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: large;
+  margin: 0;
+  border-color: white;
+ }
+
+ .comment-form-container {
+  margin-bottom: 20px;
+}
+
+.comment-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-color: #eee;
+}
+
+button[type='submit'] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.comments-section {
+  padding-top: 30px;
+}
+
+.comment p:first-child {
+  font-weight: bold;
+}
+
+.comment {
+  background: #f9f9f9;
+  padding: 10px;
+  border-left: 6px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.hidden {
+  display: none;
+}
+
+.submitten {
+  width: 750px;
+  height: 30px;
+  font-size: large;
+  border-radius: 20px;
+}
+
+#comment-section span {
+  display: flex;
+  align-items: center;
+}
+
+#comment-section span:before {
+  content: attr(data-name) ": ";
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.comment { display: flex; align-items: baseline; }
+
+.comment p:first-child { font-weight: bold; margin-right: 10px; }
+
+.naamnaam {
+  margin-top: 30px;
+}
