@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nu.nl</title>
-    <link rel='stylesheet' href="../navbar/navbar.css">
+    <link rel='stylesheet' href="../navbar/navbar1.css">
     <script src="../navbar/navbar.js" defer></script>
 </head>
 
@@ -21,12 +21,12 @@
                 </a>
             </li>
             <li class="nav_itemitem_default">
-                <a href="/nu.nl/catagorie/catagorie.php?catagorie=net-binnen" title="Net binnen">
+                <a class="patat" href="/nu.nl/catagorie/catagorie.php?catagorie=net-binnen" title="Net binnen">
                     Net binnen
                 </a>
             </li>
             <li class="nav_itemitem_default">
-                <a href="/nu.nl/catagorie/catagorie.php?catagorie=algemeen" title="Algemeen">
+                <a class="patat" href="/nu.nl/catagorie/catagorie.php?catagorie=algemeen" title="Algemeen">
                     Algemeen
                 </a>
             </li>
@@ -51,7 +51,7 @@
                 </a>
             </li>
             <li class="nav_itemitem_default">
-                <a href="/nu.nl/catagorie/catagorie.php?catagorie=nushop-adverteerder" title="Shop">
+                <a class="patat" href="/nu.nl/catagorie/catagorie.php?catagorie=nushop-adverteerder" title="Shop">
                     Shop
                 </a>
             </li>
