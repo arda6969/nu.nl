@@ -1,0 +1,32 @@
+a {
+    display: flex;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 3%;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.out {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+}
